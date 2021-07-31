@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StreamingApp.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Streaming Demo" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="" x:Name="StatusLabel" HorizontalOptions="CenterAndExpand"/>
+        <Button Text="Play" x:Name="PlayButton" Clicked="PlayButton_Clicked"/>
+        <Button Text="Pause" x:Name="PauseButton" Clicked="PauseButton_Clicked"/>
+        <Button Text="Stop" x:Name="StopButton" Clicked="StopButton_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
